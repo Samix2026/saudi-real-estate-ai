@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-05-21",
+  "source_authority": "الهيئة العامة للعقار — وزارة الاستثمار",
+  "source_url": "https://www.rega.gov.sa/ar/regulations",
+  "entries": [
+    {
+      "id": "mecca_medina_prohibition",
+      "name_ar": "حظر التملك في مكة المكرمة والمدينة المنورة",
+      "name_en": "Ownership Prohibition in Mecca and Medina",
+      "category": "مناطق جغرافية",
+      "applies_to": ["غير مسلمين", "جميع الجنسيات الأجنبية"],
+      "permitted": false,
+      "description_ar": "يُحظر على غير المسلمين بصورة مطلقة تملك أي نوع من العقارات في مكة المكرمة والمدينة المنورة، وذلك بموجب نظام تملك غير السعوديين للعقار. ينطبق هذا الحظر على جميع أنواع التصرفات العقارية بما فيها صناديق الاستثمار العقاري المباشر في المنطقتين.",
+      "description_en": "Non-Muslims are absolutely prohibited from owning any type of real estate in Mecca and Medina under the Non-Saudi Property Ownership Regulations. This prohibition applies to all types of real estate transactions, including direct real estate investment funds in those two cities.",
+      "source_url": "https://www.rega.gov.sa/ar/regulations",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "gcc_nationals_rights",
+      "name_ar": "حقوق مواطني دول مجلس التعاون الخليجي",
+      "name_en": "GCC National Ownership Rights",
+      "category": "فئات المستثمرين",
+      "applies_to": ["مواطنو دول مجلس التعاون الخليجي"],
+      "permitted": true,
+      "description_ar": "يتمتع مواطنو دول مجلس التعاون الخليجي بحقوق تملك عقاري أوسع مقارنةً بغيرهم من الأجانب، إذ يُسمح لهم بتملك عقارات سكنية وتجارية في معظم مناطق المملكة باستثناء مكة المكرمة والمدينة المنورة لغير المسلمين منهم. لا يشترط لهم الحصول على رخصة استثمار من وزارة الاستثمار للتملك الشخصي.",
+      "description_en": "GCC nationals enjoy broader real estate ownership rights than other foreigners, being permitted to own residential and commercial properties in most regions of Saudi Arabia, except Mecca and Medina for non-Muslims among them. They do not need a MISA investment license for personal ownership.",
+      "source_url": "https://www.rega.gov.sa/ar/regulations",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "iqama_residential_ownership",
+      "name_ar": "تملك الأجانب المقيمين بإقامة سارية",
+      "name_en": "Resident Foreigners with Valid Iqama — Residential Ownership",
+      "category": "الإقامة والأهلية",
+      "applies_to": ["أجانب غير خليجيين حاملو إقامة سارية"],
+      "permitted": true,
+      "description_ar": "يُسمح للأجنبي الحامل لإقامة سارية الصلاحية (إقامة) بتملك عقار سكني واحد لاستخدامه الشخصي، على ألا يقع في مكة المكرمة أو المدينة المنورة. يُشترط تسجيل العقار في منظومة ريدز وإيداع رسوم التصرفات العقارية (5%) لدى هيئة الزكاة والضريبة والجمارك.",
+      "description_en": "A foreigner holding a valid Iqama (residency permit) is permitted to own one residential property for personal use, provided it is not located in Mecca or Medina. The property must be registered in REDS and the 5% Real Estate Transaction Tax paid to ZATCA.",
+      "source_url": "https://www.rega.gov.sa/ar/regulations",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "misa_commercial_license",
+      "name_ar": "ترخيص وزارة الاستثمار للتملك التجاري",
+      "name_en": "MISA Investment License for Commercial Ownership",
+      "category": "التملك التجاري",
+      "applies_to": ["جميع المستثمرين الأجانب"],
+      "permitted": true,
+      "description_ar": "يُتيح الحصول على رخصة استثمار أجنبي من وزارة الاستثمار (ميساء) للمستثمر الأجنبي تملك العقارات التجارية والصناعية وإدارتها في المملكة. تتفاوت الحد الأدنى لقيمة الاستثمار المشترطة تبعاً لنوع النشاط وتتراوح عموماً بين 500,000 ريال و30,000,000 ريال سعودي.",
+      "description_en": "Obtaining a foreign investment license from the Ministry of Investment (MISA) enables the foreign investor to own and manage commercial and industrial real estate in Saudi Arabia. Minimum investment thresholds vary by activity type and generally range from SAR 500,000 to SAR 30,000,000.",
+      "source_url": "https://misa.gov.sa",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "reit_open_to_foreigners",
+      "name_ar": "صناديق الاستثمار العقاري المتداولة مفتوحة للجميع",
+      "name_en": "REITs Open to All Foreign Investors",
+      "category": "أدوات الاستثمار",
+      "applies_to": ["جميع المستثمرين الأجانب بما فيهم غير المقيمين"],
+      "permitted": true,
+      "description_ar": "تُعدّ صناديق الاستثمار العقاري المتداولة (ريتس) المدرجة في السوق المالية السعودية (تداول) متاحةً لجميع المستثمرين بما فيهم الأجانب غير المقيمين دون الحاجة لرخصة استثمار أو إقامة. تخضع لإشراف هيئة السوق المالية وتُوزِّع 90% من أرباحها التشغيلية.",
+      "description_en": "Real Estate Investment Trusts (REITs) listed on the Saudi Exchange (Tadawul) are open to all investors including non-resident foreigners without requiring an investment license or residency permit. Supervised by the CMA and distributing 90% of operating income annually.",
+      "source_url": "https://cma.org.sa",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "saudi_company_structure",
+      "name_ar": "التملك عبر شركة سعودية",
+      "name_en": "Ownership Through a Saudi Company Structure",
+      "category": "هياكل الاستثمار",
+      "applies_to": ["جميع المستثمرين الأجانب"],
+      "permitted": true,
+      "description_ar": "يستطيع المستثمر الأجنبي الحصول على ترخيص من وزارة الاستثمار لتأسيس شركة ذات مسؤولية محدودة سعودية تمتلك العقارات كأصول تجارية. يُتيح هذا الهيكل تجاوز بعض القيود المفروضة على التملك الفردي ويُناسب الاستثمارات الكبيرة والمتعددة.",
+      "description_en": "A foreign investor can obtain a MISA license to establish a Saudi limited liability company that owns real estate as business assets. This structure allows bypassing some individual ownership restrictions and is suitable for large or multiple investments.",
+      "source_url": "https://misa.gov.sa",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "rett_for_foreigners",
+      "name_ar": "ضريبة التصرفات العقارية للمستثمرين الأجانب",
+      "name_en": "Real Estate Transaction Tax (RETT) for Foreign Investors",
+      "category": "الالتزامات الضريبية",
+      "applies_to": ["جميع المستثمرين الأجانب"],
+      "permitted": true,
+      "description_ar": "تُطبَّق ضريبة التصرفات العقارية بنسبة 5% على جميع عمليات شراء العقار في المملكة بصرف النظر عن جنسية المشتري. تُسدَّد لهيئة الزكاة والضريبة والجمارك قبل إتمام تسجيل نقل الملكية في منظومة ريدز، وهي غير قابلة للاسترداد.",
+      "description_en": "The 5% Real Estate Transaction Tax applies to all property purchases in Saudi Arabia regardless of the buyer's nationality. Paid to ZATCA before completing ownership transfer registration in REDS, and is non-refundable.",
+      "source_url": "https://zatca.gov.sa/ar/RealEstateTax/Pages/default.aspx",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "usufruct_foreign_alternative",
+      "name_ar": "حق الانتفاع كبديل للتملك الكامل للأجانب",
+      "name_en": "Usufruct Right as Alternative to Full Ownership for Foreigners",
+      "category": "هياكل الاستثمار",
+      "applies_to": ["المستثمرون الأجانب في المشاريع المشتركة"],
+      "permitted": true,
+      "description_ar": "في حالات لا يُسمح فيها للأجنبي بالتملك الكامل، يمكن الاتفاق على حق الانتفاع الذي يُتيح له استخدام العقار والانتفاع بثماره لمدة محددة. يُستخدم هذا الهيكل في بعض مشاريع الشراكة الحكومية الخاصة ومشاريع رؤية 2030 الكبرى.",
+      "description_en": "In cases where full ownership is not permitted for a foreigner, a usufruct right can be agreed upon, allowing use of the property and its fruits for a specified period. This structure is used in some public-private partnership projects and major Vision 2030 giga-projects.",
+      "source_url": "https://www.rega.gov.sa/ar/regulations",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "sez_investment_zones",
+      "name_ar": "المناطق الاقتصادية الخاصة — تيسيرات التملك",
+      "name_en": "Special Economic Zones — Ownership Facilitations",
+      "category": "مناطق جغرافية",
+      "applies_to": ["جميع المستثمرين الأجانب"],
+      "permitted": true,
+      "description_ar": "تُوفِّر المناطق الاقتصادية الخاصة في المملكة (كنيوم ومشروع البحر الأحمر وريزان وكيدية) تيسيرات أوسع في تملك الأجانب للعقارات مقارنةً بالقواعد العامة، مع إعفاءات ضريبية وبنية تحتية متطورة. تخضع كل منطقة لنظام خاص بها يُصدره مجلس إدارة المنطقة.",
+      "description_en": "Saudi Special Economic Zones (such as NEOM, Red Sea Project, Reazon, and Qiddiya) offer expanded foreign real estate ownership rights compared to general rules, along with tax exemptions and advanced infrastructure. Each zone is governed by its own regulations issued by the zone's board.",
+      "source_url": "https://misa.gov.sa",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "reds_registration_foreign",
+      "name_ar": "اشتراط التسجيل في منظومة ريدز للأجانب",
+      "name_en": "REDS Registration Requirement for Foreign Buyers",
+      "category": "إجراءات التسجيل",
+      "applies_to": ["جميع المستثمرين الأجانب المؤهلين للتملك"],
+      "permitted": true,
+      "description_ar": "يجب تسجيل جميع عمليات التملك العقاري للأجانب المؤهلين في منظومة التسجيل العيني للعقار (ريدز) التابعة للهيئة العامة للعقار. يتطلب التسجيل تقديم وثائق هوية المستثمر ورخصة الاستثمار (عند الاقتضاء) وعقد البيع الموثَّق وإيصال سداد الضريبة.",
+      "description_en": "All real estate ownership transactions by eligible foreigners must be registered in REGA's Real Estate Electronic Registration System (REDS). Registration requires the investor's identity documents, the investment license (where applicable), notarized sale contract, and tax payment receipt.",
+      "source_url": "https://www.rega.gov.sa/ar/services/real-estate-registration",
+      "last_verified": "2026-05-21"
+    }
+  ]
+}

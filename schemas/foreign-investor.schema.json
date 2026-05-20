@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saudi Foreign Real Estate Investor Rules",
+  "description": "Schema for validating foreign investor ownership rule entries in data/foreign-investor.ar.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "last_updated",
+    "source_authority",
+    "source_url",
+    "entries"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Version of the schema used"
+    },
+    "last_updated": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "ISO 8601 date of last dataset update"
+    },
+    "source_authority": {
+      "type": "string",
+      "description": "The official authority governing these rules"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Official URL for the foreign ownership regulations"
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name_ar",
+          "name_en",
+          "category",
+          "applies_to",
+          "permitted",
+          "description_ar",
+          "description_en",
+          "source_url",
+          "last_verified"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$",
+            "description": "Unique snake_case identifier for the rule"
+          },
+          "name_ar": {
+            "type": "string",
+            "minLength": 2,
+            "description": "Rule name in Arabic"
+          },
+          "name_en": {
+            "type": "string",
+            "minLength": 2,
+            "description": "Rule name in English"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "مناطق جغرافية",
+              "فئات المستثمرين",
+              "الإقامة والأهلية",
+              "التملك التجاري",
+              "أدوات الاستثمار",
+              "هياكل الاستثمار",
+              "الالتزامات الضريبية",
+              "إجراءات التسجيل"
+            ],
+            "description": "Category of the foreign investor rule"
+          },
+          "applies_to": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "description": "Investor categories this rule applies to"
+          },
+          "permitted": {
+            "type": "boolean",
+            "description": "Whether the described activity is permitted under this rule"
+          },
+          "description_ar": {
+            "type": "string",
+            "minLength": 20,
+            "description": "Rule description in Arabic"
+          },
+          "description_en": {
+            "type": "string",
+            "minLength": 20,
+            "description": "Rule description in English"
+          },
+          "source_url": {
+            "type": "string",
+            "format": "uri",
+            "description": "Official URL confirming this rule"
+          },
+          "last_verified": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+            "description": "ISO 8601 date of last verification"
+          }
+        }
+      }
+    }
+  }
+}

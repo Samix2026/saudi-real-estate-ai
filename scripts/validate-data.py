@@ -36,6 +36,9 @@ DATASETS = [
     ("data/platforms.en.json", "schemas/platforms.schema.json"),
     ("data/authorities.ar.json", "schemas/authorities.schema.json"),
     ("data/contract-types.ar.json", "schemas/contract-types.schema.json"),
+    ("data/real-estate-terms.ar.json", "schemas/real-estate-terms.schema.json"),
+    ("data/broker-requirements.ar.json", "schemas/broker-requirements.schema.json"),
+    ("data/foreign-investor.ar.json", "schemas/foreign-investor.schema.json"),
 ]
 
 

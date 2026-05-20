@@ -6,7 +6,7 @@ This roadmap outlines the phased development of `saudi-real-estate-ai` from foun
 
 ## Phase 1 — Foundation
 
-**Status:** 🟢 Active  
+**Status:** ✅ مكتملة  
 **Timeline:** Q2 2025
 
 Establish the repository structure and core documentation so contributors and AI agents have a reliable, well-cited starting point.
@@ -22,8 +22,8 @@ Establish the repository structure and core documentation so contributors and AI
 
 ## Phase 2 — Structured Datasets
 
-**Status:** 🟡 In Progress  
-**Timeline:** Q2–Q3 2025
+**Status:** 🟡 جارية  
+**Timeline:** Q2–Q3 2026
 
 Build the core machine-readable knowledge base covering platforms, authorities, contract types, terminology, and market concepts.
 
@@ -40,7 +40,7 @@ Build the core machine-readable knowledge base covering platforms, authorities, 
 ## Phase 3 — AI Prompts and Examples
 
 **Status:** ⚪ Planned  
-**Timeline:** Q3 2025
+**Timeline:** Q3 2026
 
 Create reusable AI system prompts and bilingual example interactions that developers can integrate directly into chatbots and AI agents.
 
@@ -56,7 +56,7 @@ Create reusable AI system prompts and bilingual example interactions that develo
 ## Phase 4 — MCP Integration
 
 **Status:** ⚪ Planned  
-**Timeline:** Q4 2025
+**Timeline:** Q4 2026
 
 Expose the knowledge base as structured, callable tools through the Model Context Protocol so it can be used natively by Claude, GPT, and other MCP-compatible runtimes.
 
@@ -72,7 +72,7 @@ Expose the knowledge base as structured, callable tools through the Model Contex
 ## Phase 5 — Arabic Embeddings
 
 **Status:** ⚪ Planned  
-**Timeline:** Q1 2026
+**Timeline:** Q1 2027
 
 Produce an embedding-ready, chunked version of the knowledge base optimised for semantic search over Arabic and bilingual real estate content.
 
@@ -88,7 +88,7 @@ Produce an embedding-ready, chunked version of the knowledge base optimised for 
 ## Phase 6 — Community and Ecosystem
 
 **Status:** ⚪ Planned  
-**Timeline:** Q2 2026
+**Timeline:** Q2 2027
 
 Grow the project into a community-maintained ecosystem with standardised contribution tooling and integrations across major AI frameworks.
 

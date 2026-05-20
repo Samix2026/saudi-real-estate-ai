@@ -52,6 +52,11 @@ The repository organises verified regulatory data from official Saudi sources (R
 - Support foreign investor onboarding with bilingual market entry guidance
 - Seed RAG (Retrieval-Augmented Generation) pipelines with Saudi domain knowledge
 - Train or fine-tune language models on Saudi real estate Arabic terminology
+- Guide foreign investors through nationality-differentiated ownership pathways (GCC, resident, non-resident) using `data/foreign-investor.ar.json`
+- Verify real estate broker eligibility and licensing requirements via `data/broker-requirements.ar.json`
+- Power bilingual glossary lookups for the 50+ term Saudi real estate terminology dataset
+- Build tenant rights advisors that explain Rental Law obligations and Ejar dispute procedures
+- Serve as a grounded knowledge layer for MCP-based real estate agents connecting to Saudi property APIs
 
 ---
 
@@ -101,7 +106,7 @@ saudi-real-estate-ai/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/saudi-real-estate-ai.git
+git clone https://github.com/Samix2026/saudi-real-estate-ai.git
 cd saudi-real-estate-ai
 
 # Install the validation dependency

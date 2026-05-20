@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saudi Real Estate Terms",
+  "description": "Schema for validating Saudi real estate terminology entries in data/real-estate-terms.ar.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name_ar",
+      "name_en",
+      "category",
+      "definition_ar",
+      "definition_en",
+      "source_url",
+      "last_verified",
+      "audience"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$",
+        "description": "Unique snake_case identifier for the term"
+      },
+      "name_ar": {
+        "type": "string",
+        "minLength": 2,
+        "description": "Term name in Arabic"
+      },
+      "name_en": {
+        "type": "string",
+        "minLength": 2,
+        "description": "Term name in English"
+      },
+      "category": {
+        "type": "string",
+        "enum": [
+          "عقود",
+          "تراخيص",
+          "منصات",
+          "تمويل",
+          "ملكية",
+          "إجراءات",
+          "جهات تنظيمية"
+        ],
+        "description": "Functional category of the term"
+      },
+      "definition_ar": {
+        "type": "string",
+        "minLength": 20,
+        "description": "Term definition in Arabic"
+      },
+      "definition_en": {
+        "type": "string",
+        "minLength": 20,
+        "description": "Term definition in English"
+      },
+      "source_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "Official Saudi government URL confirming this term"
+      },
+      "last_verified": {
+        "type": "string",
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+        "description": "ISO 8601 date of last verification"
+      },
+      "audience": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1,
+        "description": "Target audience categories for this term"
+      }
+    }
+  }
+}

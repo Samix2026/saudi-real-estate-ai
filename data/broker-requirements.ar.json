@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-05-21",
+  "source_authority": "الهيئة العامة للعقار",
+  "source_url": "https://www.rega.gov.sa/ar/services/broker-license",
+  "entries": [
+    {
+      "id": "broker_license_rega",
+      "name_ar": "ترخيص الوسيط العقاري من الهيئة العامة للعقار",
+      "name_en": "REGA Real Estate Broker License",
+      "category": "ترخيص",
+      "mandatory": true,
+      "description_ar": "يُشترط على كل شخص طبيعي أو اعتباري يمارس نشاط الوساطة العقارية في المملكة الحصول على ترخيص ساري الصلاحية من الهيئة العامة للعقار قبل مزاولة النشاط. يُعدّ تقديم خدمات الوساطة دون ترخيص مخالفة يعاقب عليها النظام.",
+      "description_en": "Any natural or legal person practicing real estate brokerage in Saudi Arabia must hold a valid license from REGA before commencing activity. Providing brokerage services without a license is a punishable regulatory violation.",
+      "source_url": "https://www.rega.gov.sa/ar/services/broker-license",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "broker_qualification",
+      "name_ar": "التأهيل المهني واجتياز الاختبار المعتمد",
+      "name_en": "Professional Qualification and Accredited Exam",
+      "category": "تأهيل",
+      "mandatory": true,
+      "description_ar": "يُلزَم مقدم طلب ترخيص الوساطة العقارية باجتياز البرنامج التدريبي المعتمد من الهيئة العامة للعقار والاختبار المهني المحدد. يغطي البرنامج أسس نظام الإيجار ونظام التطوير العقاري وقواعد سلوك الوساطة وأخلاقيات المهنة.",
+      "description_en": "An applicant for a real estate brokerage license must complete the REGA-accredited training program and pass the designated professional exam. The program covers the Rental Law, Real Estate Development Law, brokerage conduct rules, and professional ethics.",
+      "source_url": "https://www.rega.gov.sa/ar/services/broker-license",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "commercial_registration",
+      "name_ar": "السجل التجاري للمكاتب العقارية",
+      "name_en": "Commercial Registration for Real Estate Offices",
+      "category": "تسجيل",
+      "mandatory": true,
+      "description_ar": "يجب على المكاتب والشركات التي تمارس نشاط الوساطة العقارية الحصول على سجل تجاري ساري يتضمن نشاط الوساطة العقارية ضمن أنشطتها المرخَّصة، إضافةً إلى ترخيص الوسيط الصادر عن الهيئة العامة للعقار.",
+      "description_en": "Real estate offices and companies must hold a valid commercial registration that includes real estate brokerage among their licensed activities, in addition to the REGA-issued broker license.",
+      "source_url": "https://www.rega.gov.sa/ar/services/broker-license",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "annual_renewal",
+      "name_ar": "التجديد السنوي للترخيص",
+      "name_en": "Annual License Renewal",
+      "category": "ترخيص",
+      "mandatory": true,
+      "description_ar": "ترخيص الوسيط العقاري قابل للتجديد سنوياً، ويشترط لتجديده استيفاء ساعات التطوير المهني المستمر المحددة من الهيئة العامة للعقار وسداد رسوم التجديد. مزاولة النشاط بترخيص منتهٍ مخالفة نظامية.",
+      "description_en": "The real estate broker license is renewed annually and requires completing REGA-specified continuing professional development hours and paying renewal fees. Practicing with an expired license is a regulatory violation.",
+      "source_url": "https://www.rega.gov.sa/ar/services/broker-license",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "written_brokerage_contract",
+      "name_ar": "إلزامية عقد الوساطة الكتابي",
+      "name_en": "Mandatory Written Brokerage Contract",
+      "category": "عقود",
+      "mandatory": true,
+      "description_ar": "يُلزَم الوسيط بإبرام عقد وساطة مكتوب مع العميل قبل تقديم أي خدمة. يجب أن يتضمن العقد نطاق الخدمة المتفق عليها ونسبة العمولة وآلية احتسابها ومدة الوكالة وشروط إنهائها وبيانات طرفي العقد.",
+      "description_en": "The broker is required to conclude a written brokerage contract with the client before providing any service. The contract must include the agreed service scope, commission rate and calculation method, agency duration, termination conditions, and both parties' details.",
+      "source_url": "https://www.rega.gov.sa/ar/services/broker-license",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "commission_disclosure",
+      "name_ar": "الإفصاح الكامل عن العمولة",
+      "name_en": "Full Commission Disclosure",
+      "category": "أخلاقيات",
+      "mandatory": true,
+      "description_ar": "يجب على الوسيط الإفصاح للعميل بصورة كاملة ومسبقة عن نسبة العمولة ومن يتحمل سدادها (البائع أو المشتري أو كلاهما) وأي رسوم إضافية. يُحظر تلقي عمولة مزدوجة من طرفَي الصفقة دون علمهما وموافقتهما.",
+      "description_en": "The broker must fully and proactively disclose to the client the commission rate, who is responsible for payment (seller, buyer, or both), and any additional fees. Receiving double commission from both transaction parties without their knowledge and consent is prohibited.",
+      "source_url": "https://www.rega.gov.sa/ar/services/broker-license",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "transaction_registration",
+      "name_ar": "تسجيل المعاملات في المنصات الرسمية",
+      "name_en": "Transaction Registration on Official Platforms",
+      "category": "إجراءات",
+      "mandatory": true,
+      "description_ar": "يُلزَم الوسيط العقاري بتوثيق عقود الإيجار في منصة إيجار وعقود البيع على الخارطة في منصة وافي. التوثيق في المنصات الرسمية شرط لسريان العقد قانونياً وحماية حقوق الأطراف.",
+      "description_en": "Real estate brokers are required to document lease contracts on the Ejar platform and off-plan sale contracts on the Wafi platform. Documentation on official platforms is a condition for the contract's legal validity and protection of all parties' rights.",
+      "source_url": "https://www.ejar.sa/ar/regulations",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "professional_ethics",
+      "name_ar": "الالتزام بميثاق أخلاقيات المهنة",
+      "name_en": "Compliance with the Professional Ethics Code",
+      "category": "أخلاقيات",
+      "mandatory": true,
+      "description_ar": "يخضع الوسيط العقاري لميثاق أخلاقيات المهنة الصادر عن الهيئة العامة للعقار، الذي يُحظر بموجبه تقديم معلومات مضللة أو مبالغ فيها عن العقارات، والتلاعب بالأسعار، ومزاولة النشاط لمصلحة شخصية على حساب العميل.",
+      "description_en": "Real estate brokers are subject to REGA's professional ethics code, which prohibits providing misleading or exaggerated property information, price manipulation, and conducting activity for personal benefit at the client's expense.",
+      "source_url": "https://www.rega.gov.sa/ar/services/broker-license",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "conflict_of_interest",
+      "name_ar": "حظر تعارض المصالح",
+      "name_en": "Conflict of Interest Prohibition",
+      "category": "أخلاقيات",
+      "mandatory": true,
+      "description_ar": "يُحظر على الوسيط العقاري الجمع بين دور الوسيط ودور البائع أو المشتري في الصفقة ذاتها دون إفصاح كامل وموافقة صريحة من الأطراف. كذلك يُحظر التعامل مع عقارات يمتلكها الوسيط نفسه دون الإفصاح عن ذلك.",
+      "description_en": "The broker is prohibited from combining the role of broker with that of seller or buyer in the same transaction without full disclosure and explicit consent from the parties. Dealing in properties owned by the broker without disclosure is also prohibited.",
+      "source_url": "https://www.rega.gov.sa/ar/services/broker-license",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "continuing_education",
+      "name_ar": "التطوير المهني المستمر",
+      "name_en": "Continuing Professional Development (CPD)",
+      "category": "تأهيل",
+      "mandatory": true,
+      "description_ar": "يشترط الهيئة العامة للعقار على الوسطاء إكمال عدد محدد من ساعات التطوير المهني المستمر سنوياً عبر برامج تدريبية معتمدة، وذلك كشرط لتجديد الترخيص. تهدف هذه المتطلبات إلى ضمان مواكبة الوسطاء للتغييرات التنظيمية.",
+      "description_en": "REGA requires brokers to complete a specified number of continuing professional development hours annually through accredited training programs as a license renewal condition. These requirements ensure brokers stay current with regulatory changes.",
+      "source_url": "https://www.rega.gov.sa/ar/services/broker-license",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "advertising_compliance",
+      "name_ar": "ضوابط الإعلان العقاري",
+      "name_en": "Real Estate Advertising Compliance",
+      "category": "إجراءات",
+      "mandatory": true,
+      "description_ar": "يُلزَم الوسيط العقاري بأن تتضمن إعلاناته العقارية رقم الترخيص الصادر عن الهيئة العامة للعقار وبيانات دقيقة وغير مضللة عن العقار. يُحظر الإعلان عن عقارات دون تفويض من المالك أو المطور المرخَّص.",
+      "description_en": "Real estate brokers are required to include their REGA license number in all real estate advertisements and provide accurate, non-misleading property information. Advertising properties without authorization from the owner or licensed developer is prohibited.",
+      "source_url": "https://www.rega.gov.sa/ar/services/broker-license",
+      "last_verified": "2026-05-21"
+    }
+  ]
+}

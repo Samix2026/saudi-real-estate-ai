@@ -1,0 +1,133 @@
+[
+  {
+    "id": "ejar",
+    "name_ar": "إيجار",
+    "name_en": "Ejar",
+    "category": "إيجار",
+    "operator": "الهيئة العامة للعقار",
+    "operator_en": "Real Estate General Authority (REGA)",
+    "website": "https://ejar.sa",
+    "description_ar": "منصة إيجار هي المنصة الوطنية الرسمية لإبرام عقود الإيجار السكنية والتجارية إلكترونياً في المملكة العربية السعودية، وتتبع الهيئة العامة للعقار. تتيح المنصة للملاك والمستأجرين توثيق عقود الإيجار وإدارتها بشكل رقمي كامل، مع ربطها بالجهات الحكومية ذات الصلة كالكهرباء والبلديات. وتوفر المنصة آليات لتسجيل الشكاوى ومتابعة طلبات الصيانة وحل النزاعات بين أطراف العقد.",
+    "description_en": "Ejar is the official national platform for concluding residential and commercial lease contracts electronically in Saudi Arabia, operated by the Real Estate General Authority (REGA). The platform enables landlords and tenants to document and manage lease agreements digitally, with integration to related government services such as electricity and municipalities. It also provides mechanisms for filing complaints, tracking maintenance requests, and resolving disputes between contract parties.",
+    "services": [
+      "عقود الإيجار الإلكترونية",
+      "توثيق عقود الإيجار",
+      "الشكاوى والنزاعات",
+      "طلبات الصيانة",
+      "تجديد العقود",
+      "ربط الخدمات الحكومية"
+    ],
+    "requires_registration": true,
+    "official": true,
+    "launched_year": 2017
+  },
+  {
+    "id": "wafi",
+    "name_ar": "وافي",
+    "name_en": "Wafi",
+    "category": "بيع وشراء",
+    "operator": "الهيئة العامة للعقار",
+    "operator_en": "Real Estate General Authority (REGA)",
+    "website": "https://wafi.rega.gov.sa",
+    "description_ar": "منصة وافي هي المنصة الرسمية المتخصصة في تنظيم بيع العقارات على الخارطة في المملكة العربية السعودية، وتشرف عليها الهيئة العامة للعقار. تضمن المنصة حماية حقوق المشترين من خلال اشتراط حصول المطورين العقاريين على تراخيص مشاريع البيع على الخارطة قبل طرح وحداتهم للبيع. كما تتيح متابعة تقدم تنفيذ المشاريع والتحقق من الالتزام بمعايير وزارة البلديات والإسكان.",
+    "description_en": "Wafi is the official platform dedicated to regulating off-plan real estate sales in Saudi Arabia, supervised by the Real Estate General Authority (REGA). The platform ensures buyer protection by requiring real estate developers to obtain off-plan project licenses before offering units for sale. It also enables tracking project implementation progress and verifying compliance with Ministry of Municipalities and Housing standards.",
+    "services": [
+      "ترخيص مشاريع البيع على الخارطة",
+      "متابعة تقدم المشاريع",
+      "حماية المشترين",
+      "التحقق من المطورين المرخصين",
+      "حسابات الضمان",
+      "شهادات الإنجاز"
+    ],
+    "requires_registration": true,
+    "official": true,
+    "launched_year": 2017
+  },
+  {
+    "id": "sakani",
+    "name_ar": "سكني",
+    "name_en": "Sakani",
+    "category": "تطوير عقاري",
+    "operator": "وزارة البلديات والإسكان",
+    "operator_en": "Ministry of Municipalities and Housing",
+    "website": "https://sakani.com.sa",
+    "description_ar": "سكني هو البرنامج الحكومي الوطني للإسكان التابع لوزارة البلديات والإسكان، ويهدف إلى رفع نسبة تملك المواطنين السعوديين لمساكنهم ضمن مستهدفات رؤية 2030. يوفر البرنامج باقات سكنية متنوعة تشمل الوحدات السكنية المدعومة والأراضي المجانية والتمويل العقاري الميسر بالتعاون مع صندوق التنمية العقارية والبنوك المعتمدة. تتيح المنصة الرقمية للمستفيدين تقديم الطلبات ومتابعة حالاتها والاطلاع على الخيارات السكنية المتاحة في مختلف مناطق المملكة.",
+    "description_en": "Sakani is the national housing program operated by the Ministry of Municipalities and Housing, aiming to increase Saudi homeownership rates as part of Vision 2030 targets. The program provides diverse housing packages including subsidized residential units, free land plots, and affordable mortgage financing in cooperation with the Real Estate Development Fund and approved banks. The digital platform enables beneficiaries to submit applications, track their status, and browse available housing options across different regions of the Kingdom.",
+    "services": [
+      "الحصول على وحدات سكنية مدعومة",
+      "تخصيص أراضي مجانية",
+      "التمويل العقاري الميسر",
+      "تقديم طلبات الإسكان",
+      "متابعة حالة الطلب",
+      "الاستشارات السكنية"
+    ],
+    "requires_registration": true,
+    "official": true,
+    "launched_year": 2017
+  },
+  {
+    "id": "tadawul_reits",
+    "name_ar": "البورصة العقارية",
+    "name_en": "Tadawul Real Estate Exchange",
+    "category": "استثمار عقاري",
+    "operator": "تداول السعودية (مجموعة البورصة السعودية)",
+    "operator_en": "Saudi Exchange (Tadawul Group)",
+    "website": "https://www.tadawul.com.sa",
+    "description_ar": "البورصة العقارية هي قسم متخصص ضمن السوق المالية السعودية (تداول) يُتيح تداول صناديق الاستثمار العقاري المتداولة (ريت) وغيرها من الأدوات الاستثمارية العقارية. تتيح هذه المنصة للمستثمرين الأفراد والمؤسسيين المشاركة في السوق العقاري عبر الأسواق المالية دون الحاجة إلى تملك العقارات مباشرة. تخضع الصناديق العقارية المتداولة للإشراف المشترك لهيئة السوق المالية والهيئة العامة للعقار.",
+    "description_en": "The Real Estate Exchange is a specialized segment within the Saudi Stock Exchange (Tadawul) that facilitates trading of Real Estate Investment Trusts (REITs) and other real estate investment instruments. This platform enables individual and institutional investors to participate in the real estate market through financial markets without directly owning properties. Listed real estate funds are subject to joint oversight by the Capital Market Authority and the Real Estate General Authority.",
+    "services": [
+      "تداول صناديق الاستثمار العقاري المتداولة (ريت)",
+      "بيانات السوق العقاري",
+      "تقارير أداء الصناديق",
+      "الاكتتابات العامة في الصناديق العقارية",
+      "مؤشرات السوق العقاري"
+    ],
+    "requires_registration": true,
+    "official": true,
+    "launched_year": 2016
+  },
+  {
+    "id": "nafitha",
+    "name_ar": "نافذة",
+    "name_en": "Nafitha",
+    "category": "تنظيم عقاري",
+    "operator": "الهيئة العامة للعقار",
+    "operator_en": "Real Estate General Authority (REGA)",
+    "website": "https://rega.gov.sa/nafitha",
+    "description_ar": "نافذة هي المنصة الرسمية للهيئة العامة للعقار المخصصة لمنح تراخيص ممارسة الأعمال في القطاع العقاري، بما تشمل تراخيص الوساطة العقارية وإدارة العقارات. تتيح المنصة للوسطاء والمطورين العقاريين التقديم على التراخيص المهنية وتجديدها وإدارة ملفاتهم التنظيمية إلكترونياً. تسهم نافذة في رفع مستوى احترافية القطاع العقاري من خلال اشتراط التدريب والاختبار واستيفاء المتطلبات التنظيمية للحصول على الترخيص.",
+    "description_en": "Nafitha is the official Real Estate General Authority (REGA) platform dedicated to issuing licenses for practicing business in the real estate sector, including brokerage and property management licenses. The platform enables brokers and real estate developers to apply for and renew professional licenses and manage their regulatory files electronically. Nafitha contributes to raising the professionalism of the real estate sector by requiring training, examination, and fulfillment of regulatory requirements to obtain a license.",
+    "services": [
+      "تراخيص الوساطة العقارية",
+      "تجديد التراخيص",
+      "إدارة الملفات التنظيمية",
+      "تراخيص إدارة العقارات",
+      "الاستعلام عن تراخيص الوسطاء",
+      "متطلبات التأهيل المهني"
+    ],
+    "requires_registration": true,
+    "official": true,
+    "launched_year": 2020
+  },
+  {
+    "id": "reds",
+    "name_ar": "منصة ريدز",
+    "name_en": "REDS (Real Estate Documentation System)",
+    "category": "تسجيل عقاري",
+    "operator": "الهيئة العامة للعقار",
+    "operator_en": "Real Estate General Authority (REGA)",
+    "website": "https://rega.gov.sa",
+    "description_ar": "منصة ريدز (REDS) هي نظام التسجيل العقاري الإلكتروني الشامل التابع للهيئة العامة للعقار، يهدف إلى رقمنة منظومة التوثيق العقاري في المملكة العربية السعودية. يتيح النظام إتمام إجراءات تسجيل العقارات ونقل الملكية وتسجيل الرهون العقارية والحقوق العينية إلكترونياً دون الحاجة للمراجعة الشخصية. يرتبط النظام بالمنظومة الوطنية للمعلومات العقارية ويضمن دقة البيانات وموثوقيتها من خلال التكامل مع كتابات العدل والجهات الحكومية ذات الصلة.",
+    "description_en": "REDS (Real Estate Documentation System) is the comprehensive electronic real estate registration system operated by the Real Estate General Authority (REGA), aimed at digitalizing the real estate documentation system in Saudi Arabia. The system enables completion of property registration procedures, ownership transfers, mortgage registration, and in-kind rights electronically without requiring in-person visits. It is linked to the National Real Estate Information System and ensures data accuracy and reliability through integration with notary offices and related government entities.",
+    "services": [
+      "تسجيل العقارات إلكترونياً",
+      "نقل الملكية",
+      "تسجيل الرهون العقارية",
+      "توثيق الحقوق العينية",
+      "الاستعلام عن صكوك الملكية",
+      "تحديث بيانات العقارات"
+    ],
+    "requires_registration": true,
+    "official": true,
+    "launched_year": 2022
+  }
+]

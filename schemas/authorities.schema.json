@@ -1,0 +1,105 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saudi Real Estate Authorities",
+  "description": "Schema for validating Saudi real estate regulatory authority entries in data/authorities.ar.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name_ar",
+      "name_en",
+      "abbreviation",
+      "type",
+      "established_year",
+      "website",
+      "description_ar",
+      "description_en",
+      "jurisdiction",
+      "key_regulations"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$",
+        "description": "Unique lowercase identifier for the authority"
+      },
+      "name_ar": {
+        "type": "string",
+        "description": "Authority name in Arabic"
+      },
+      "name_en": {
+        "type": "string",
+        "description": "Authority name in English"
+      },
+      "abbreviation": {
+        "type": "string",
+        "description": "Official abbreviation or acronym"
+      },
+      "type": {
+        "type": "string",
+        "enum": [
+          "جهة حكومية",
+          "هيئة تنظيمية",
+          "صندوق حكومي",
+          "جهة قضائية",
+          "جهة تمويلية"
+        ],
+        "description": "Type of authority"
+      },
+      "established_year": {
+        "type": "integer",
+        "minimum": 1900,
+        "maximum": 2030,
+        "description": "Year the authority was established"
+      },
+      "website": {
+        "type": "string",
+        "format": "uri",
+        "description": "Official website URL of the authority"
+      },
+      "description_ar": {
+        "type": "string",
+        "minLength": 20,
+        "description": "Authority description in Arabic"
+      },
+      "description_en": {
+        "type": "string",
+        "minLength": 20,
+        "description": "Authority description in English"
+      },
+      "jurisdiction": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1,
+        "description": "Areas of jurisdiction for this authority"
+      },
+      "key_regulations": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "List of key regulations issued or enforced by this authority"
+      },
+      "contact": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "phone": {
+            "type": "string",
+            "description": "Official contact phone number"
+          },
+          "email": {
+            "type": "string",
+            "format": "email",
+            "description": "Official contact email address"
+          }
+        },
+        "description": "Optional contact information for the authority"
+      }
+    }
+  }
+}

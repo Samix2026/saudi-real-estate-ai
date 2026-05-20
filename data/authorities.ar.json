@@ -1,0 +1,205 @@
+[
+  {
+    "id": "rega",
+    "name_ar": "الهيئة العامة للعقار",
+    "name_en": "Real Estate General Authority",
+    "abbreviation": "REGA",
+    "type": "هيئة تنظيمية",
+    "established_year": 2016,
+    "website": "https://rega.gov.sa",
+    "description_ar": "الهيئة العامة للعقار هي الجهة التنظيمية الرئيسية للقطاع العقاري في المملكة العربية السعودية، أُسست بموجب المرسوم الملكي لتنظيم أنشطة التطوير العقاري والوساطة والإيجار. تتولى الهيئة الإشراف على منصات إيجار ووافي ونافذة وريدز، وتمنح التراخيص للمطورين والوسطاء وشركات إدارة العقارات. كما تُصدر اللوائح التنظيمية وتفرض الامتثال لنظام التطوير العقاري ونظام الإيجار وسائر الأنظمة ذات الصلة.",
+    "description_en": "The Real Estate General Authority (REGA) is the principal regulatory body for Saudi Arabia's real estate sector, established by royal decree to regulate real estate development, brokerage, and rental activities. The Authority oversees the Ejar, Wafi, Nafitha, and REDS platforms, and issues licenses to developers, brokers, and property management companies. It also promulgates regulations and enforces compliance with the Real Estate Development Law, the Rental Law, and other related regulations.",
+    "jurisdiction": [
+      "تنظيم القطاع العقاري",
+      "ترخيص المطورين العقاريين",
+      "ترخيص الوسطاء العقاريين",
+      "الإشراف على منصات إيجار ووافي ونافذة وريدز",
+      "حماية المستهلك في المعاملات العقارية",
+      "رقابة مشاريع البيع على الخارطة"
+    ],
+    "key_regulations": [
+      "نظام التطوير العقاري 1443هـ",
+      "نظام الوساطة العقارية",
+      "نظام الإيجار وتعديلاته",
+      "لائحة البيع على الخارطة",
+      "نظام إدارة العقارات"
+    ],
+    "contact": {
+      "phone": "920001243",
+      "email": "info@rega.gov.sa"
+    }
+  },
+  {
+    "id": "moh",
+    "name_ar": "وزارة البلديات والإسكان",
+    "name_en": "Ministry of Municipalities and Housing",
+    "abbreviation": "MOH",
+    "type": "جهة حكومية",
+    "established_year": 1975,
+    "website": "https://www.moh.gov.sa",
+    "description_ar": "وزارة البلديات والإسكان هي الجهة الحكومية المعنية بالتخطيط العمراني وتطوير الإسكان وتنظيم البلديات في المملكة العربية السعودية. تشرف الوزارة على برنامج سكني الوطني للإسكان وتتولى رسم السياسات الإسكانية وتوفير البنية التحتية للمجمعات السكنية. تعمل الوزارة على تحقيق مستهدف رؤية 2030 الرامي إلى رفع نسبة تملك المواطنين لمساكنهم إلى 70% بحلول عام 2030.",
+    "description_en": "The Ministry of Municipalities and Housing is the government authority responsible for urban planning, housing development, and municipal regulation across Saudi Arabia. The Ministry oversees the national Sakani housing program and is tasked with formulating housing policies and providing infrastructure for residential communities. It works to achieve the Vision 2030 target of raising Saudi homeownership to 70% by 2030.",
+    "jurisdiction": [
+      "التخطيط العمراني",
+      "تطوير الإسكان الوطني",
+      "برنامج سكني",
+      "تنظيم البلديات",
+      "البنية التحتية للمجمعات السكنية",
+      "مخططات الاستخدام الأراضي"
+    ],
+    "key_regulations": [
+      "نظام التخطيط العمراني",
+      "نظام البناء السعودي الموحد",
+      "لوائح الإسكان الميسر",
+      "نظام المناطق الاقتصادية الخاصة"
+    ],
+    "contact": {
+      "phone": "920000723",
+      "email": "info@moh.gov.sa"
+    }
+  },
+  {
+    "id": "redf",
+    "name_ar": "صندوق التنمية العقارية",
+    "name_en": "Real Estate Development Fund",
+    "abbreviation": "REDF",
+    "type": "صندوق حكومي",
+    "established_year": 1974,
+    "website": "https://redf.gov.sa",
+    "description_ar": "صندوق التنمية العقارية هو صندوق حكومي سعودي يُعدّ من أكبر مؤسسات التمويل السكاني في المنطقة، أُسس لتمكين المواطنين السعوديين من تملك مساكنهم من خلال القروض والدعم المالي. يقدم الصندوق قروضاً عقارية معفاة من الفائدة ودعماً مالياً للأسر ذات الدخل المحدود والمتوسط بالتنسيق مع البنوك والمؤسسات المالية المعتمدة. يرتبط الصندوق ارتباطاً وثيقاً ببرنامج سكني ويُعدّ الذراع التمويلية الرئيسية للسياسة الإسكانية الوطنية.",
+    "description_en": "The Real Estate Development Fund (REDF) is a Saudi government fund and one of the largest residential financing institutions in the region, established to enable Saudi citizens to own homes through loans and financial support. The Fund provides interest-free mortgage loans and financial subsidies to low- and middle-income families in coordination with approved banks and financial institutions. REDF is closely linked to the Sakani program and serves as the primary financing arm of the national housing policy.",
+    "jurisdiction": [
+      "التمويل العقاري للمواطنين",
+      "دعم ملكية المساكن",
+      "القروض العقارية الميسرة",
+      "الإيجار المنتهي بالتمليك",
+      "الدعم السكاني للأسر المحتاجة",
+      "التكامل مع البنوك التجارية"
+    ],
+    "key_regulations": [
+      "نظام صندوق التنمية العقارية",
+      "لائحة دعم التمويل السكاني",
+      "برامج الإعانة السكنية",
+      "ضوابط الإيجار المنتهي بالتمليك"
+    ],
+    "contact": {
+      "phone": "920002153",
+      "email": "info@redf.gov.sa"
+    }
+  },
+  {
+    "id": "sama",
+    "name_ar": "البنك المركزي السعودي",
+    "name_en": "Saudi Central Bank",
+    "abbreviation": "SAMA",
+    "type": "هيئة تنظيمية",
+    "established_year": 1952,
+    "website": "https://www.sama.gov.sa",
+    "description_ar": "البنك المركزي السعودي (ساما) هو الجهة التنظيمية المالية العليا في المملكة العربية السعودية، تأسس ليتولى الإشراف على القطاع المصرفي وشركات التأمين والمؤسسات المالية الأخرى. في القطاع العقاري، يُنظم ساما التمويل العقاري ويضع الحدود القصوى لنسبة التمويل إلى قيمة العقار (LTV) وضوابط الملاءة المالية للمقترضين. يُصدر ساما أيضاً التقارير والبيانات الدورية عن أداء قطاع التمويل العقاري في المملكة.",
+    "description_en": "The Saudi Central Bank (SAMA) is the Kingdom's supreme financial regulatory authority, established to oversee the banking sector, insurance companies, and other financial institutions. In the real estate sector, SAMA regulates mortgage financing, sets maximum loan-to-value (LTV) ratios, and enforces borrower creditworthiness standards. SAMA also publishes periodic reports and data on the performance of Saudi Arabia's real estate financing sector.",
+    "jurisdiction": [
+      "تنظيم التمويل العقاري",
+      "الرقابة على البنوك التجارية",
+      "ضوابط نسبة التمويل إلى القيمة (LTV)",
+      "تنظيم شركات التمويل العقاري",
+      "الرقابة على قطاع التأمين العقاري",
+      "السياسة النقدية وأثرها على القطاع العقاري"
+    ],
+    "key_regulations": [
+      "نظام مراقبة البنوك",
+      "نظام التمويل العقاري 1433هـ",
+      "نظام الإيجار التمويلي",
+      "لوائح التمويل الاستهلاكي"
+    ],
+    "contact": {
+      "phone": "800124999",
+      "email": "info@sama.gov.sa"
+    }
+  },
+  {
+    "id": "cma",
+    "name_ar": "هيئة السوق المالية",
+    "name_en": "Capital Market Authority",
+    "abbreviation": "CMA",
+    "type": "هيئة تنظيمية",
+    "established_year": 2003,
+    "website": "https://www.cma.org.sa",
+    "description_ar": "هيئة السوق المالية هي الجهة التنظيمية للسوق المالية السعودية، تأسست بموجب نظام السوق المالية لتنظيم وتطوير سوق الأوراق المالية في المملكة. في القطاع العقاري، تُشرف الهيئة على صناديق الاستثمار العقاري المتداولة (ريت) وتمنح موافقاتها لطروح الصناديق العقارية العامة. تضع الهيئة اللوائح التنظيمية لإدارة صناديق الاستثمار العقاري وتتطلب مستويات شفافية عالية في الإفصاح المالي وتوزيع الأرباح.",
+    "description_en": "The Capital Market Authority (CMA) is the regulatory body of Saudi Arabia's financial market, established under the Capital Market Law to regulate and develop the securities market in the Kingdom. In the real estate sector, the CMA supervises listed Real Estate Investment Trusts (REITs) and grants approvals for public real estate fund offerings. The Authority sets regulatory standards for REIT management and requires high levels of transparency in financial disclosure and profit distribution.",
+    "jurisdiction": [
+      "تنظيم صناديق الاستثمار العقاري المتداولة (ريت)",
+      "الإشراف على طروح الصناديق العقارية",
+      "الأوراق المالية المرتبطة بالعقار",
+      "الإفصاح والشفافية للصناديق المدرجة",
+      "مكافحة الاحتيال في الأسواق المالية"
+    ],
+    "key_regulations": [
+      "نظام السوق المالية",
+      "لائحة صناديق الاستثمار العقاري (ريت) 1437هـ",
+      "نظام الأوراق المالية",
+      "قواعد إدراج الأوراق المالية"
+    ],
+    "contact": {
+      "phone": "920003247",
+      "email": "cma@cma.org.sa"
+    }
+  },
+  {
+    "id": "misa",
+    "name_ar": "وزارة الاستثمار (المملكة العربية السعودية)",
+    "name_en": "Ministry of Investment of Saudi Arabia",
+    "abbreviation": "MISA",
+    "type": "جهة حكومية",
+    "established_year": 2000,
+    "website": "https://misa.gov.sa",
+    "description_ar": "وزارة الاستثمار (المعروفة سابقاً بالهيئة العامة للاستثمار SAGIA) هي الجهة الحكومية المعنية بتنظيم بيئة الاستثمار في المملكة العربية السعودية واستقطاب الاستثمارات المحلية والأجنبية. في القطاع العقاري، تُيسر الوزارة حصول المستثمرين الأجانب على تراخيص الاستثمار العقاري ضمن الضوابط والاشتراطات المحددة. تعمل الوزارة على تحسين بيئة الأعمال وتبسيط الإجراءات لجذب الاستثمار الأجنبي المباشر في القطاع العقاري.",
+    "description_en": "The Ministry of Investment (formerly known as the Saudi Arabian General Investment Authority, SAGIA) is the government body responsible for regulating the investment environment in Saudi Arabia and attracting domestic and foreign investments. In the real estate sector, the Ministry facilitates foreign investors in obtaining real estate investment licenses within defined controls and requirements. It works to improve the business environment and streamline procedures to attract foreign direct investment into the real estate sector.",
+    "jurisdiction": [
+      "استثمارات القطاع الخاص في العقار",
+      "تراخيص الاستثمار الأجنبي في العقار",
+      "تحسين بيئة الأعمال العقارية",
+      "المناطق الاقتصادية الخاصة",
+      "استقطاب المطورين الدوليين"
+    ],
+    "key_regulations": [
+      "نظام الاستثمار الأجنبي",
+      "لائحة الاستثمار في القطاع العقاري",
+      "قواعد المناطق الاقتصادية الخاصة",
+      "اتفاقيات الاستثمار الثنائية"
+    ],
+    "contact": {
+      "phone": "920002062",
+      "email": "info@misa.gov.sa"
+    }
+  },
+  {
+    "id": "real_estate_courts",
+    "name_ar": "المحاكم العقارية",
+    "name_en": "Real Estate Courts",
+    "abbreviation": "المحاكم العقارية",
+    "type": "جهة قضائية",
+    "established_year": 2013,
+    "website": "https://www.moj.gov.sa",
+    "description_ar": "المحاكم العقارية هي محاكم متخصصة تابعة لوزارة العدل السعودية، أُسست للنظر في المنازعات العقارية بكفاءة وتخصص أعلى مقارنة بالمحاكم العامة. تختص هذه المحاكم بالنظر في قضايا الإيجار والبيع والشراء وحقوق الملكية ونزاعات المطورين والمستثمرين العقاريين. تعمل المحاكم العقارية على الفصل في النزاعات وفقاً لأنظمة التطوير العقاري والإيجار ونقل الملكية، مع توفير آليات التحكيم العقاري لتسوية النزاعات بشكل ودي.",
+    "description_en": "The Real Estate Courts are specialized courts under Saudi Arabia's Ministry of Justice, established to adjudicate real estate disputes with greater efficiency and expertise compared to general courts. These courts have jurisdiction over rental disputes, sale and purchase cases, property rights, and conflicts between developers and real estate investors. The Real Estate Courts resolve disputes in accordance with the Real Estate Development Law, the Rental Law, and property transfer regulations, while also offering real estate arbitration mechanisms for amicable dispute settlement.",
+    "jurisdiction": [
+      "النزاعات العقارية بين الملاك والمستأجرين",
+      "قضايا نقل الملكية",
+      "نزاعات البيع على الخارطة",
+      "التحكيم العقاري",
+      "تنفيذ العقود العقارية",
+      "قضايا الرهن العقاري"
+    ],
+    "key_regulations": [
+      "نظام المرافعات الشرعية",
+      "نظام التنفيذ",
+      "نظام التحكيم السعودي",
+      "نظام الإيجار",
+      "نظام التطوير العقاري"
+    ],
+    "contact": {
+      "phone": "1950",
+      "email": "info@moj.gov.sa"
+    }
+  }
+]

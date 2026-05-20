@@ -1,0 +1,112 @@
+[
+  {
+    "id": "vision_2030_housing",
+    "concept_ar": "رؤية 2030 وقطاع الإسكان",
+    "concept_en": "Vision 2030 and the Housing Sector",
+    "category": "سياسة إسكانية",
+    "description_ar": "تستهدف رؤية المملكة العربية السعودية 2030 رفع نسبة تملّك المواطنين للمساكن من 47% عام 2016 إلى 70% بحلول عام 2030. يُعدّ هذا الهدف من أبرز مستهدفات برنامج جودة الحياة وبرنامج الإسكان، ويُنفَّذ عبر حزمة متكاملة من الأدوات تشمل الدعم المالي وتطوير الأراضي وتبسيط الإجراءات التنظيمية.",
+    "description_en": "Vision 2030 targets raising Saudi citizen homeownership from 47% in 2016 to 70% by 2030. This is among the key targets of the Quality of Life and Housing Programs, implemented through financial support, land development, and regulatory streamlining.",
+    "related_authority": "وزارة البلديات والإسكان",
+    "vision_2030_link": true,
+    "sources": ["https://vision2030.gov.sa", "https://moh.gov.sa"]
+  },
+  {
+    "id": "quality_of_life_program",
+    "concept_ar": "برنامج جودة الحياة",
+    "concept_en": "Quality of Life Program",
+    "category": "سياسة إسكانية",
+    "description_ar": "أحد برامج رؤية 2030 الرئيسية، يهدف إلى تحسين بيئة المعيشة في المملكة من خلال تطوير البنية التحتية للأحياء السكنية وتوفير الخدمات والمرافق الترفيهية والصحية والتعليمية. يرتبط بقطاع العقار من خلال تحديد معايير التطوير السكني ومستويات جودة المساكن.",
+    "description_en": "One of Vision 2030's flagship programs aiming to improve quality of life by developing residential neighborhoods, services, and recreational, health, and educational facilities. Linked to real estate through residential development standards and housing quality benchmarks.",
+    "related_authority": "وزارة البلديات والإسكان",
+    "vision_2030_link": true,
+    "sources": ["https://vision2030.gov.sa/ar/programs/qol", "https://moh.gov.sa"]
+  },
+  {
+    "id": "white_land_fee",
+    "concept_ar": "رسوم الأراضي البيضاء",
+    "concept_en": "White Land Fee (Vacant Urban Land Tax)",
+    "category": "تنظيم",
+    "description_ar": "رسم سنوي قدره 2.5% من القيمة السوقية يُفرض على الأراضي غير المطوَّرة داخل النطاق العمراني التي تبلغ مساحتها 10,000 متر مربع فأكثر. صدر نظامه عام 1437هـ ويهدف إلى الحدّ من احتكار الأراضي وزيادة المعروض من الأراضي الصالحة للبناء، مما يُسهم في خفض أسعار العقارات السكنية على المدى المتوسط.",
+    "description_en": "An annual 2.5% fee on the market value of undeveloped land within urban boundaries for plots of 10,000 sqm or more. Enacted in 2016 to reduce land hoarding, increase supply of buildable land, and moderate residential property prices over the medium term.",
+    "related_authority": "وزارة البلديات والإسكان",
+    "vision_2030_link": true,
+    "sources": ["https://moh.gov.sa", "https://wlt.gov.sa"]
+  },
+  {
+    "id": "reits_saudi",
+    "concept_ar": "صناديق الاستثمار العقاري المتداولة (ريت)",
+    "concept_en": "Real Estate Investment Trusts (REITs)",
+    "category": "استثمار",
+    "description_ar": "أوعية استثمارية مدرجة في السوق المالية السعودية (تداول)، تتيح للمستثمرين من الأفراد والمؤسسات امتلاك حصص في محافظ عقارية متنوعة دون الحاجة إلى شراء عقارات مباشرة. تخضع لإشراف هيئة السوق المالية وتلتزم بتوزيع ما لا يقل عن 90% من صافي أرباحها التشغيلية سنوياً على المستثمرين.",
+    "description_en": "Listed investment vehicles on Tadawul (Saudi Exchange) allowing individual and institutional investors to hold stakes in diversified real estate portfolios without direct property ownership. Regulated by CMA and required to distribute at least 90% of net operating income annually.",
+    "related_authority": "هيئة السوق المالية (CMA)",
+    "vision_2030_link": true,
+    "sources": ["https://cma.org.sa", "https://tadawul.com.sa"]
+  },
+  {
+    "id": "sakani_program",
+    "concept_ar": "برنامج سكني",
+    "concept_en": "Sakani Housing Program",
+    "category": "سياسة إسكانية",
+    "description_ar": "برنامج حكومي أطلقته وزارة البلديات والإسكان لتمكين المواطنين السعوديين من تملّك مساكنهم، يُقدّم من خلاله دعم متكامل يشمل: الأراضي المجانية في مخططات مطوَّرة، ووحدات سكنية جاهزة مدعومة، وتمويل عقاري ميسَّر بالتعاون مع صندوق التنمية العقارية والبنوك. اعتُمد كأحد أبرز برامج رؤية 2030 لتحقيق هدف نسبة التملّك 70%.",
+    "description_en": "A government program by the Ministry of Housing offering Saudi citizens comprehensive housing support including free land in developed subdivisions, subsidized ready units, and affordable financing through REDF and banks. One of Vision 2030's flagship programs targeting 70% homeownership.",
+    "related_authority": "وزارة البلديات والإسكان",
+    "vision_2030_link": true,
+    "sources": ["https://sakani.com.sa", "https://moh.gov.sa"]
+  },
+  {
+    "id": "off_plan_regulatory_framework",
+    "concept_ar": "النظام التنظيمي للبيع على الخارطة",
+    "concept_en": "Off-Plan Sales Regulatory Framework",
+    "category": "تنظيم",
+    "description_ar": "منظومة تنظيمية أطلقتها الهيئة العامة للعقار عبر منصة وافي، تُلزم المطورين بالحصول على ترخيص قبل تسويق أي مشروع على الخارطة، وفتح حساب ضمان بنكي تُودَع فيه مدفوعات المشترين، ولا تُصرف منه إلا وفق نسب الإنجاز المعتمدة. يهدف النظام إلى القضاء على ظاهرة تعثر مشاريع التطوير التي كانت تُكبّد المشترين خسائر فادحة.",
+    "description_en": "A regulatory framework launched by REGA via wafi, requiring developers to obtain a license before marketing any off-plan project, open an escrow account for buyer payments, and draw funds only against certified milestones. Designed to eliminate developer default risks that previously caused significant buyer losses.",
+    "related_authority": "الهيئة العامة للعقار",
+    "vision_2030_link": false,
+    "sources": ["https://wafi.rega.gov.sa", "https://rega.gov.sa"]
+  },
+  {
+    "id": "redf_subsidies",
+    "concept_ar": "صندوق التنمية العقارية والدعم السكني",
+    "concept_en": "Real Estate Development Fund (REDF) and Housing Subsidies",
+    "category": "تمويل",
+    "description_ar": "صندوق حكومي أُسِّس عام 1974م يُقدّم تمويلاً ميسَّراً للمواطنين السعوديين لبناء أو شراء مساكن. في إطار رؤية 2030، وسّع الصندوق برامجه لتشمل دعم أسعار الفائدة (يتحمل الصندوق الفرق بين سعر السوق وسعر مدعوم)، ومنتجات الإيجار المنتهي بالتمليك، والشراكات مع البنوك لزيادة عدد المستفيدين.",
+    "description_en": "A government fund established in 1974 providing affordable financing to Saudi citizens for building or purchasing homes. Under Vision 2030, it expanded to include profit rate support (fund covers the spread between market and subsidized rates), rent-to-own products, and bank partnerships to scale beneficiary reach.",
+    "related_authority": "صندوق التنمية العقارية",
+    "vision_2030_link": true,
+    "sources": ["https://redf.gov.sa", "https://sakani.com.sa"]
+  },
+  {
+    "id": "rett_tax",
+    "concept_ar": "ضريبة التصرفات العقارية",
+    "concept_en": "Real Estate Transaction Tax (RETT)",
+    "category": "تنظيم",
+    "description_ar": "ضريبة بنسبة 5% فُرضت عام 2020م على جميع التصرفات العقارية (بيع، تنازل، مبادلة) في المملكة العربية السعودية، وجاءت كجزء من إصلاحات المالية العامة ضمن رؤية 2030. حلّت جزئياً محل ضريبة القيمة المضافة على العقارات السكنية. تُحصَّل من قِبَل هيئة الزكاة والضريبة والجمارك (زاتكا) وتُسدَّد إلكترونياً قبل التسجيل.",
+    "description_en": "A 5% tax imposed in 2020 on all real estate transactions (sale, transfer, exchange) in Saudi Arabia as part of Vision 2030 fiscal reforms. Partially replaced VAT on residential properties. Collected by ZATCA and paid electronically before registration.",
+    "related_authority": "هيئة الزكاة والضريبة والجمارك (زاتكا)",
+    "vision_2030_link": true,
+    "sources": ["https://zatca.gov.sa", "https://rega.gov.sa"]
+  },
+  {
+    "id": "foreign_investment_real_estate",
+    "concept_ar": "الاستثمار الأجنبي في العقار السعودي",
+    "concept_en": "Foreign Investment in Saudi Real Estate",
+    "category": "استثمار",
+    "description_ar": "يُتيح النظام السعودي للمستثمرين الأجانب تملّك العقارات لأغراض التجارة والاستثمار وفق ضوابط محددة، أبرزها: الحصول على ترخيص استثمار من وزارة الاستثمار (ميساء)، وعدم استخدام العقار لأغراض مخالفة للنظام. أما تملّك الرعايا الأجانب للعقار السكني (غير التجاري) فلا يزال مقيَّداً ومشروطاً بالإقامة النظامية. تظل مدينتا مكة المكرمة والمدينة المنورة محظورتين على غير المسلمين.",
+    "description_en": "Saudi regulations permit foreign investors to own real estate for commercial and investment purposes under defined conditions, primarily obtaining a MISA investment license and compliance with use restrictions. Residential (non-commercial) ownership by foreign nationals remains restricted and tied to lawful residency. Mecca and Medina remain prohibited for non-Muslims.",
+    "related_authority": "وزارة الاستثمار (ميساء) | الهيئة العامة للعقار",
+    "vision_2030_link": true,
+    "sources": ["https://misa.gov.sa", "https://rega.gov.sa"]
+  },
+  {
+    "id": "housing_affordability_index",
+    "concept_ar": "مؤشر الوصول إلى السكن",
+    "concept_en": "Housing Affordability Index",
+    "category": "مؤشرات السوق",
+    "description_ar": "مقياس يُحدّد مدى قدرة الأسر السعودية على تحمّل تكاليف امتلاك وحدة سكنية بالنسبة لمتوسط دخلها. تُصدر الهيئة العامة للعقار تقارير دورية عن مؤشرات السوق العقاري تتضمن أسعار الوحدات ومعدلات الإيجار والفجوة بين الطلب والعرض في المدن الرئيسية. يُستخدم هذا المؤشر في رسم السياسات الإسكانية وتقييم أثر برامج الدعم الحكومي.",
+    "description_en": "A measure of Saudi households' ability to afford homeownership relative to median income. REGA publishes periodic market reports covering unit prices, rental rates, and the demand-supply gap in major cities. Used in housing policy design and assessing the impact of government support programs.",
+    "related_authority": "الهيئة العامة للعقار",
+    "vision_2030_link": true,
+    "sources": ["https://rega.gov.sa/reports", "https://moh.gov.sa"]
+  }
+]

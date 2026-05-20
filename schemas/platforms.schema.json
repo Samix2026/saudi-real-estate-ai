@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saudi Real Estate Platforms",
+  "description": "Schema for validating Saudi real estate platform entries in data/platforms.ar.json and data/platforms.en.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name_ar",
+      "name_en",
+      "category",
+      "operator",
+      "operator_en",
+      "website",
+      "description_ar",
+      "description_en",
+      "services",
+      "requires_registration",
+      "official",
+      "launched_year"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$",
+        "description": "Unique lowercase identifier for the platform"
+      },
+      "name_ar": {
+        "type": "string",
+        "minLength": 2,
+        "description": "Platform name in Arabic"
+      },
+      "name_en": {
+        "type": "string",
+        "minLength": 2,
+        "description": "Platform name in English"
+      },
+      "category": {
+        "type": "string",
+        "enum": [
+          "إيجار",
+          "بيع وشراء",
+          "تطوير عقاري",
+          "تمويل",
+          "استثمار",
+          "استثمار عقاري",
+          "تراخيص",
+          "تسجيل",
+          "تسجيل عقاري",
+          "تنظيم عقاري",
+          "Rental",
+          "Sales and Purchase",
+          "Real Estate Development",
+          "Finance",
+          "Investment",
+          "Real Estate Investment",
+          "Licensing",
+          "Registration",
+          "Property Registration",
+          "Real Estate Regulation"
+        ],
+        "description": "Primary category of the platform"
+      },
+      "operator": {
+        "type": "string",
+        "description": "Name of the operating entity in Arabic"
+      },
+      "operator_en": {
+        "type": "string",
+        "description": "Name of the operating entity in English"
+      },
+      "website": {
+        "type": "string",
+        "format": "uri",
+        "description": "Official website URL of the platform"
+      },
+      "description_ar": {
+        "type": "string",
+        "minLength": 20,
+        "description": "Platform description in Arabic"
+      },
+      "description_en": {
+        "type": "string",
+        "minLength": 20,
+        "description": "Platform description in English"
+      },
+      "services": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1,
+        "description": "List of services offered by the platform"
+      },
+      "requires_registration": {
+        "type": "boolean",
+        "description": "Whether the platform requires user registration"
+      },
+      "official": {
+        "type": "boolean",
+        "description": "Whether the platform is an official government platform"
+      },
+      "launched_year": {
+        "type": "integer",
+        "minimum": 2000,
+        "maximum": 2030,
+        "description": "Year the platform was launched"
+      }
+    }
+  }
+}

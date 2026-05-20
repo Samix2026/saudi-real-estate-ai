@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saudi Real Estate Contract Types",
+  "description": "Schema for validating Saudi real estate contract type entries in data/contract-types.ar.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name_ar",
+      "name_en",
+      "category",
+      "description_ar",
+      "description_en",
+      "required_parties",
+      "must_be_registered",
+      "platform",
+      "governing_regulation",
+      "key_clauses",
+      "max_duration_years",
+      "notes_ar"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Unique identifier for the contract type"
+      },
+      "name_ar": {
+        "type": "string",
+        "description": "Contract type name in Arabic"
+      },
+      "name_en": {
+        "type": "string",
+        "description": "Contract type name in English"
+      },
+      "category": {
+        "type": "string",
+        "enum": [
+          "إيجار",
+          "بيع",
+          "تطوير",
+          "وساطة",
+          "تمويل",
+          "إدارة"
+        ],
+        "description": "Primary category of the contract type"
+      },
+      "description_ar": {
+        "type": "string",
+        "minLength": 20,
+        "description": "Contract type description in Arabic"
+      },
+      "description_en": {
+        "type": "string",
+        "minLength": 20,
+        "description": "Contract type description in English"
+      },
+      "required_parties": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 2,
+        "description": "List of parties required to execute the contract"
+      },
+      "must_be_registered": {
+        "type": "boolean",
+        "description": "Whether the contract must be registered with a government platform"
+      },
+      "platform": {
+        "type": "string",
+        "description": "The platform on which this contract is typically registered or managed"
+      },
+      "governing_regulation": {
+        "type": "string",
+        "description": "The primary regulation or law governing this contract type"
+      },
+      "key_clauses": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "minItems": 1,
+        "description": "List of key clauses that must be included in the contract"
+      },
+      "max_duration_years": {
+        "oneOf": [
+          {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Maximum contract duration in years"
+          },
+          {
+            "type": "null",
+            "description": "No maximum duration (e.g. for permanent transfers)"
+          }
+        ],
+        "description": "Maximum duration of the contract in years, or null if no limit applies"
+      },
+      "notes_ar": {
+        "type": "string",
+        "description": "Additional notes or remarks in Arabic"
+      }
+    }
+  }
+}

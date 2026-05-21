@@ -27,6 +27,11 @@ The repository organises verified regulatory data from official Saudi sources (R
 | Contracts | Rental, sale, off-plan, commercial lease |
 | Terminology | Bilingual glossary of Saudi real estate terms (AR / EN) |
 | AI Artifacts | System prompts, example Q&A pairs, JSON schemas |
+| Property Types | 15 property types with legal definitions, deed types, and ownership restrictions |
+| Saudi Building Code | SBC codes, buyer rights, and developer obligations |
+| Real Estate Investment Trusts | Regulatory framework for REITs listed on Tadawul |
+| Housing Programs | 7 national programs: Sakani, REDF, NHC, ROSHN, and more |
+| Property Coding | National Address system, REDS, and land parcel identification |
 
 ---
 

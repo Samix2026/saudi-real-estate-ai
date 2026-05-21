@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-05-21",
+  "description_ar": "الإطار التنظيمي لصناديق الاستثمار العقاري المتداولة في السوق المالية السعودية (تداول)، الصادر عن هيئة السوق المالية بالتنسيق مع الهيئة العامة للعقار",
+  "regulatory_authorities": [
+    {
+      "name_ar": "هيئة السوق المالية",
+      "name_en": "Capital Market Authority (CMA)",
+      "role_ar": "الجهة المشرفة الرئيسية على إصدار وإدراج وتشغيل صناديق الاستثمار العقاري المتداولة في السوق المالية السعودية",
+      "url": "https://cma.org.sa"
+    },
+    {
+      "name_ar": "الهيئة العامة للعقار",
+      "name_en": "Real Estate General Authority (REGA)",
+      "role_ar": "الجهة المنظِّمة للأصول العقارية المُدرجة في الصناديق والمشرفة على تقييم العقارات المملوكة للصناديق",
+      "url": "https://www.rega.gov.sa"
+    }
+  ],
+  "concepts": [
+    {
+      "id": "reit_definition",
+      "concept_ar": "صندوق الاستثمار العقاري المتداول",
+      "concept_en": "Real Estate Investment Trust (REIT)",
+      "definition_ar": "صندوق استثماري مُدرج في السوق المالية السعودية (تداول) يمتلك ويُدير عقارات مُدرّة للدخل كالمراكز التجارية والمكاتب والفنادق والمستودعات. يتيح للمستثمرين الأفراد والمؤسسيين الاستثمارَ في العقارات بشراء وحدات قابلة للتداول دون الحاجة لامتلاك العقار مباشرةً، ويوزع الصندوق الجزء الأكبر من دخله على حملة الوحدات.",
+      "definition_en": "An investment fund listed on the Saudi Exchange (Tadawul) that owns and manages income-producing properties such as retail centers, offices, hotels, and warehouses. Allows individual and institutional investors to invest in real estate by purchasing tradable units without direct property ownership, and distributes the majority of its income to unit holders.",
+      "key_distinction_ar": "على خلاف الملكية المباشرة للعقار، توفر وحدات الصندوق سيولة فورية إذ تُباع وتُشترى في السوق المالية كالأسهم، مع تنويع آلي للمخاطر ودون أعباء الإدارة المباشرة",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21",
+      "audience": ["مستثمر"]
+    },
+    {
+      "id": "reit_vs_private_fund",
+      "concept_ar": "الفرق بين صندوق REIT المتداول والصندوق العقاري الخاص",
+      "concept_en": "Difference Between a Listed REIT and a Private Real Estate Fund",
+      "definition_ar": "صندوق الاستثمار العقاري المتداول (REIT) مُدرج في تداول وتُباع وحداته للجمهور العام، بينما الصندوق العقاري الخاص غير مُدرج ويقتصر على مستثمرين مؤهلين بحدود اشتراك أعلى. يخضع المتداول لإفصاح علني أكثر ولوائح تداول صارمة، في حين يتمتع الخاص بمرونة أكبر في استراتيجية الاستثمار.",
+      "definition_en": "A listed REIT is traded publicly on Tadawul with units available to all investors, while a private real estate fund is unlisted and restricted to qualified investors with higher subscription minimums. Listed REITs are subject to more public disclosure and strict trading regulations, while private funds enjoy greater investment strategy flexibility.",
+      "key_distinction_ar": "السيولة والإفصاح: وحدات REIT المتداول قابلة للبيع الفوري في السوق، أما الصندوق الخاص فلا يوجد له سوق ثانوية منظمة وقد يُقيّد السحب لفترات محددة",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21",
+      "audience": ["مستثمر"]
+    },
+    {
+      "id": "reit_vs_direct_ownership",
+      "concept_ar": "الفرق بين REIT والملكية المباشرة للعقار",
+      "concept_en": "Difference Between a REIT and Direct Property Ownership",
+      "definition_ar": "الملكية المباشرة للعقار تمنح المالك السيطرة الكاملة وقرارات التأجير والبيع، لكنها تستلزم رأس مال كبيراً وتتسم بانخفاض السيولة. في المقابل توفر وحدات REIT سيولة عالية وتنويعاً عبر محفظة عقارية متعددة، مقابل رسوم إدارة وعدم السيطرة المباشرة على القرارات التشغيلية للعقارات.",
+      "definition_en": "Direct property ownership grants full control and leasing/sale decisions but requires substantial capital and offers low liquidity. In contrast, REIT units provide high liquidity and diversification across a multi-property portfolio, in exchange for management fees and no direct control over operational decisions.",
+      "key_distinction_ar": "الملكية المباشرة: تحكم كامل وتحسين قيمة أعلى محتمل لكن بسيولة منخفضة. REIT: سيولة عالية وتنويع تلقائي لكن دون سلطة قرار تشغيلية",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21",
+      "audience": ["مستثمر"]
+    },
+    {
+      "id": "distribution_ratio",
+      "concept_ar": "نسبة التوزيع الإلزامية",
+      "concept_en": "Mandatory Distribution Ratio",
+      "definition_ar": "تُلزم لوائح هيئة السوق المالية صناديقَ الاستثمار العقاري المتداولة بتوزيع ما لا يقل عن 90% من صافي أرباحها السنوية على حملة الوحدات، مما يجعلها مصدراً منتظماً لتوزيعات الدخل الدورية ويُميّزها عن الأسهم العادية.",
+      "definition_en": "CMA regulations require listed REITs to distribute not less than 90% of their annual net profits to unit holders, making them a regular source of periodic income distributions and distinguishing them from ordinary equities.",
+      "key_distinction_ar": "يُلزَم الصندوق بتوزيع 90%+ من صافي الربح حتى ولو كانت قيمة الوحدات منخفضة — مما يعني أن المستثمر يحصل على دخل دوري حتى في فترات انخفاض قيمة الأصول",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21",
+      "audience": ["مستثمر"]
+    },
+    {
+      "id": "permitted_assets",
+      "concept_ar": "الأصول المسموح للصندوق بالاستثمار فيها",
+      "concept_en": "Permitted Investment Assets for a REIT",
+      "definition_ar": "وفق لوائح هيئة السوق المالية، يجب أن يستثمر صندوق الاستثمار العقاري المتداول في عقارات مُدرّة للدخل بشكل رئيسي، مع السماح باستثمار نسبة محدودة في ضمانات مالية مرتبطة بالعقارات أو أصول سائلة لأغراض إدارة السيولة.",
+      "definition_en": "Under CMA regulations, a listed REIT must primarily invest in income-producing real estate, with a limited percentage permitted in real estate-linked financial securities or liquid assets for liquidity management purposes.",
+      "key_distinction_ar": "يُحظر على REIT الاستثمار المباشر في مشاريع التطوير على الخارطة إلا بنسب محدودة — الهدف الأساسي هو العقارات المكتملة والمُدرّة للدخل",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21",
+      "audience": ["مستثمر"]
+    },
+    {
+      "id": "leverage_limit",
+      "concept_ar": "الرافعة المالية — الحد الأقصى المسموح به",
+      "concept_en": "Financial Leverage — Maximum Permitted Ratio",
+      "definition_ar": "تُقيّد لوائح هيئة السوق المالية نسبة إجمالي الديون إلى إجمالي أصول صندوق الاستثمار العقاري المتداول بحد أقصى 50%، بهدف الحد من المخاطر المالية وحماية حملة الوحدات من التقلبات الناجمة عن الاقتراض المفرط.",
+      "definition_en": "CMA regulations cap the total debt-to-total-assets ratio for a listed REIT at a maximum of 50%, in order to limit financial risk and protect unit holders from volatility caused by excessive borrowing.",
+      "key_distinction_ar": "الحد الأقصى للرافعة 50% من إجمالي الأصول — صناديق REIT العالمية قد تتجاوز هذه النسبة، لذا يعكس الحد السعودي سياسة حماية المستثمر المحلي",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21",
+      "audience": ["مستثمر"]
+    },
+    {
+      "id": "foreign_investment_eligibility",
+      "concept_ar": "حق الأجانب والمقيمين في الاستثمار في REITs",
+      "concept_en": "Eligibility of Foreigners and Residents to Invest in REITs",
+      "definition_ar": "يحق للمستثمرين الأجانب والمقيمين غير السعوديين الاستثمارُ في صناديق الاستثمار العقاري المتداولة في تداول وفق أنظمة الاستثمار الأجنبي في السوق المالية السعودية. يُتيح ذلك للمستثمرين الأجانب التعرض للسوق العقارية السعودية عبر قناة منظمة دون الحاجة لامتلاك عقار مباشر والخضوع لقيوده.",
+      "definition_en": "Foreign and non-Saudi resident investors may invest in Tadawul-listed REITs under the foreign investment regulations of the Saudi Capital Market. This allows foreign investors exposure to the Saudi real estate market through a regulated channel without direct property ownership and its associated restrictions.",
+      "key_distinction_ar": "الأجنبي يستطيع شراء وحدات REIT بحرية نسبية، بينما التملك المباشر للعقار مقيد بأنظمة صارمة — الصندوق يُوفر بديلاً قانونياً ميسراً",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21",
+      "audience": ["مستثمر"]
+    },
+    {
+      "id": "reit_risks",
+      "concept_ar": "مخاطر الاستثمار في REITs",
+      "concept_en": "REIT Investment Risks",
+      "definition_ar": "تُوجب لوائح هيئة السوق المالية على مدير الصندوق الإفصاحَ عن المخاطر الرئيسية في نشرة الإصدار والتقارير الدورية، وتشمل: مخاطر سوق العقارات وتقلبات الإيجارات، ومخاطر أسعار الفائدة والتمويل، والمخاطر التنظيمية المرتبطة بتغير الأنظمة، ومخاطر التركز في قطاع واحد أو منطقة جغرافية محددة.",
+      "definition_en": "CMA regulations require the fund manager to disclose primary risks in the prospectus and periodic reports, including: real estate market risks and rental fluctuations, interest rate and financing risks, regulatory risks related to regulatory changes, and concentration risks in a single sector or geographic area.",
+      "key_distinction_ar": "على خلاف الوديعة البنكية، قيمة وحدات REIT تتذبذب مع السوق وقد تنخفض دون ضمان استرداد رأس المال",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21",
+      "audience": ["مستثمر"]
+    },
+    {
+      "id": "management_fees",
+      "concept_ar": "رسوم إدارة الصندوق — الإطار التنظيمي",
+      "concept_en": "Fund Management Fees — Regulatory Framework",
+      "definition_ar": "تُلزم لوائح هيئة السوق المالية مديرَ صندوق REIT بالإفصاح عن جميع الرسوم والتكاليف في نشرة الإصدار والتقارير الدورية، وتشمل: رسوم الإدارة السنوية المحسوبة كنسبة من صافي الأصول، ورسوم الأداء المشروطة بتحقيق معدلات عائد محددة، وأتعاب التقييم والمراجعة.",
+      "definition_en": "CMA regulations require the REIT manager to disclose all fees and costs in the prospectus and periodic reports, including: annual management fees calculated as a percentage of net assets, performance fees contingent on achieving specific return rates, and valuation and audit fees.",
+      "key_distinction_ar": "الرسوم تُخصم قبل احتساب التوزيعات — المستثمر يجب أن يقارن صافي العائد بعد الرسوم لا العائد الإجمالي المعلن",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21",
+      "audience": ["مستثمر"]
+    },
+    {
+      "id": "annual_meeting_rights",
+      "concept_ar": "الاجتماع السنوي لحملة الوحدات — الحقوق والصلاحيات",
+      "concept_en": "Annual Unit Holders' Meeting — Rights and Powers",
+      "definition_ar": "تُلزم لوائح هيئة السوق المالية كلَّ صندوق REIT بعقد اجتماع سنوي لحملة الوحدات يُتاح لهم فيه الاطلاع على أداء الصندوق ومناقشة القرارات المصيرية كاندماج الصندوق أو تصفيته أو تعديل سياسته الاستثمارية، كما يحق للمستثمر تقديم استفسارات وطرح المقترحات في حدود ما تنظمه اللوائح.",
+      "definition_en": "CMA regulations require every REIT to hold an annual unit holders' meeting at which holders may review fund performance and discuss critical decisions such as fund merger, liquidation, or investment policy amendments. Investors may also raise inquiries and submit proposals within the limits set by regulations.",
+      "key_distinction_ar": "على خلاف المساهم في شركة مُدرجة، لا يمتلك حامل وحدة REIT حق التصويت على القرارات التشغيلية اليومية — صلاحياته تقتصر على القرارات الجوهرية التي تستلزم موافقة الاجتماع العام",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21",
+      "audience": ["مستثمر"]
+    }
+  ],
+  "investor_rights": [
+    {
+      "id": "distribution_right",
+      "right_ar": "حق الحصول على التوزيعات الدورية",
+      "right_en": "Right to Periodic Distributions",
+      "legal_basis_ar": "تُلزم لوائح هيئة السوق المالية الصندوقَ بتوزيع ما لا يقل عن 90% من صافي أرباحه السنوية على حملة الوحدات وفق جدول زمني معتمد",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "disclosure_right",
+      "right_ar": "حق الإفصاح الكامل والشفافية",
+      "right_en": "Right to Full Disclosure and Transparency",
+      "legal_basis_ar": "يُلزَم مدير الصندوق بنشر تقارير ربع سنوية وسنوية وإخطارات فورية بأي أحداث جوهرية، وتُراجعها هيئة السوق المالية قبل نشرها",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "trading_right",
+      "right_ar": "حق البيع والشراء في السوق الثانوية",
+      "right_en": "Right to Buy and Sell in the Secondary Market",
+      "legal_basis_ar": "تُمثّل وحدات REIT أوراقاً مالية مُدرجة في تداول تخضع لأنظمة التداول السعودية، ويحق لأي مستثمر مؤهل بيعها أو شراؤها خلال ساعات التداول",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "complaint_right",
+      "right_ar": "حق تقديم الشكاوى لهيئة السوق المالية",
+      "right_en": "Right to File Complaints with the CMA",
+      "legal_basis_ar": "يحق لأي حامل وحدة تقديم شكوى لهيئة السوق المالية إذا ثبت له انتهاك مدير الصندوق لللوائح التنظيمية أو إخلاله بواجبات الإفصاح",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21"
+    }
+  ],
+  "listing_requirements": [
+    {
+      "id": "min_asset_value",
+      "requirement_ar": "الحد الأدنى لقيمة أصول الصندوق",
+      "requirement_en": "Minimum Fund Asset Value",
+      "detail_ar": "يُشترط أن تبلغ قيمة أصول صندوق الاستثمار العقاري المتداول ما لا يقل عن 500 مليون ريال سعودي عند الإدراج وفق متطلبات قواعد صناديق الاستثمار العقارية الصادرة عن هيئة السوق المالية",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "public_offering_ratio",
+      "requirement_ar": "نسبة الطرح للعموم",
+      "requirement_en": "Public Offering Ratio",
+      "detail_ar": "يُشترط طرح ما لا يقل عن 30% من وحدات الصندوق للاكتتاب العام قبل إدراجه في السوق المالية السعودية (تداول)",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "independent_valuation",
+      "requirement_ar": "اشتراطات التقييم العقاري المستقل",
+      "requirement_en": "Independent Real Estate Valuation Requirements",
+      "detail_ar": "يُلزم الصندوقُ بالحصول على تقييم عقاري مستقل لجميع أصوله العقارية من مُقيِّم مرخص من الهيئة العامة للعقار (REGA) عند الإدراج وعلى أساس سنوي على الأقل",
+      "source_url": "https://www.rega.gov.sa/ar/services/real-estate-valuation",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "periodic_disclosure",
+      "requirement_ar": "الإفصاح الدوري المطلوب",
+      "requirement_en": "Required Periodic Disclosures",
+      "detail_ar": "يُلزم مدير الصندوق بنشر تقارير مالية ربع سنوية وتقرير سنوي مُدقَّق من مراجع حسابات مرخص، إضافةً إلى الإفصاح الفوري عن أي أحداث جوهرية تؤثر في قيمة الأصول أو السياسة التوزيعية",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21"
+    },
+    {
+      "id": "fund_manager_license",
+      "requirement_ar": "اشتراطات مدير الصندوق",
+      "requirement_en": "Fund Manager Requirements",
+      "detail_ar": "يُشترط أن يكون مدير صندوق الاستثمار العقاري المتداول حاصلاً على ترخيص إدارة أصول ساري المفعول من هيئة السوق المالية، وأن يُعيَّن مدير استثمار عقاري مرخَّص يتولى الإشراف على قرارات الاستحواذ والتصرف في الأصول العقارية",
+      "source_url": "https://cma.org.sa/Market/REITs/Pages/default.aspx",
+      "last_verified": "2026-05-21"
+    }
+  ]
+}

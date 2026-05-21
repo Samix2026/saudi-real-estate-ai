@@ -39,6 +39,11 @@ DATASETS = [
     ("data/real-estate-terms.ar.json", "schemas/real-estate-terms.schema.json"),
     ("data/broker-requirements.ar.json", "schemas/broker-requirements.schema.json"),
     ("data/foreign-investor.ar.json", "schemas/foreign-investor.schema.json"),
+    ("data/property-types.ar.json", "schemas/property-types.schema.json"),
+    ("data/saudi-building-code.ar.json", "schemas/saudi-building-code.schema.json"),
+    ("data/reits-framework.ar.json", "schemas/reits-framework.schema.json"),
+    ("data/housing-programs.ar.json", "schemas/housing-programs.schema.json"),
+    ("data/property-coding.ar.json", "schemas/property-coding.schema.json"),
 ]
 
 

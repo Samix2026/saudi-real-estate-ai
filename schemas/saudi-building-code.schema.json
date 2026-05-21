@@ -1,0 +1,137 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saudi Building Code Framework",
+  "description": "Schema for validating the Saudi Building Code (SBC) framework dataset in data/saudi-building-code.ar.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "last_updated",
+    "framework_name_ar",
+    "framework_name_en",
+    "issuing_authority_ar",
+    "source_url",
+    "last_verified",
+    "versions",
+    "codes",
+    "buyer_rights",
+    "developer_obligations"
+  ],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "last_updated": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "framework_name_ar": { "type": "string", "minLength": 3 },
+    "framework_name_en": { "type": "string", "minLength": 3 },
+    "issuing_authority_ar": { "type": "string", "minLength": 3 },
+    "source_url": { "type": "string", "format": "uri" },
+    "last_verified": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "versions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["version", "release_year", "status", "notes_ar"],
+        "properties": {
+          "version": { "type": "string" },
+          "release_year": { "type": "integer", "minimum": 2000 },
+          "status": { "type": "string", "enum": ["سارٍ", "مُلغى", "قيد المراجعة"] },
+          "notes_ar": { "type": "string" }
+        }
+      }
+    },
+    "codes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "code_number", "name_ar", "name_en", "scope_ar", "applies_to_ar", "key_requirements_ar", "source_url", "last_verified", "audience"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "code_number": { "type": "string" },
+          "name_ar": { "type": "string", "minLength": 3 },
+          "name_en": { "type": "string", "minLength": 3 },
+          "scope_ar": { "type": "string", "minLength": 10 },
+          "applies_to_ar": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1
+          },
+          "key_requirements_ar": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1
+          },
+          "source_url": { "type": "string", "format": "uri" },
+          "last_verified": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "audience": {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1
+          }
+        }
+      }
+    },
+    "buyer_rights": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "right_ar", "right_en", "legal_basis_ar", "how_to_claim_ar", "source_url", "last_verified"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "right_ar": { "type": "string", "minLength": 5 },
+          "right_en": { "type": "string", "minLength": 5 },
+          "legal_basis_ar": { "type": "string", "minLength": 10 },
+          "how_to_claim_ar": { "type": "string", "minLength": 10 },
+          "source_url": { "type": "string", "format": "uri" },
+          "last_verified": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          }
+        }
+      }
+    },
+    "developer_obligations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "obligation_ar", "obligation_en", "legal_basis_ar", "penalty_ar", "source_url", "last_verified"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_]*$"
+          },
+          "obligation_ar": { "type": "string", "minLength": 5 },
+          "obligation_en": { "type": "string", "minLength": 5 },
+          "legal_basis_ar": { "type": "string", "minLength": 10 },
+          "penalty_ar": { "type": "string", "minLength": 5 },
+          "source_url": { "type": "string", "format": "uri" },
+          "last_verified": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          }
+        }
+      }
+    }
+  }
+}

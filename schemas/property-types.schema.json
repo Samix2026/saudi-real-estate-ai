@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saudi Real Estate Property Types",
+  "description": "Schema for validating Saudi real estate property type entries in data/property-types.ar.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name_ar",
+      "name_en",
+      "category",
+      "legal_definition_ar",
+      "legal_definition_en",
+      "deed_type_ar",
+      "permitted_uses_ar",
+      "restrictions_ar",
+      "typical_ownership_ar",
+      "foreign_ownership_allowed",
+      "registration_platform_ar",
+      "audience",
+      "source_url",
+      "last_verified"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$",
+        "description": "Unique snake_case identifier"
+      },
+      "name_ar": {
+        "type": "string",
+        "minLength": 2,
+        "description": "Official Arabic name of the property type"
+      },
+      "name_en": {
+        "type": "string",
+        "minLength": 2,
+        "description": "Official English name or accepted translation"
+      },
+      "category": {
+        "type": "string",
+        "enum": ["سكني", "تجاري", "زراعي", "صناعي", "مختلط", "أراضي"],
+        "description": "Property category"
+      },
+      "legal_definition_ar": {
+        "type": "string",
+        "minLength": 20,
+        "description": "Legal definition in Arabic as it appears in Saudi regulations"
+      },
+      "legal_definition_en": {
+        "type": "string",
+        "minLength": 20,
+        "description": "Legal definition in English"
+      },
+      "deed_type_ar": {
+        "type": "string",
+        "minLength": 5,
+        "description": "Approved deed type for this property"
+      },
+      "permitted_uses_ar": {
+        "type": "array",
+        "items": { "type": "string" },
+        "minItems": 1,
+        "description": "List of permitted uses"
+      },
+      "restrictions_ar": {
+        "type": "array",
+        "items": { "type": "string" },
+        "minItems": 1,
+        "description": "List of restrictions and requirements"
+      },
+      "typical_ownership_ar": {
+        "type": "string",
+        "description": "Typical ownership form: ملكية فردية | ملكية مشتركة | حق انتفاع"
+      },
+      "foreign_ownership_allowed": {
+        "oneOf": [
+          { "type": "boolean" },
+          { "type": "string" }
+        ],
+        "description": "Whether foreigners may own this property type: true, false, or 'مشروط'"
+      },
+      "registration_platform_ar": {
+        "type": "string",
+        "minLength": 3,
+        "description": "Responsible registration authority"
+      },
+      "audience": {
+        "type": "array",
+        "items": { "type": "string" },
+        "minItems": 1,
+        "description": "Target audiences"
+      },
+      "source_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "Official Saudi government URL confirming this entry"
+      },
+      "last_verified": {
+        "type": "string",
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+        "description": "ISO 8601 date of last verification"
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Saudi National Housing Programs",
+  "description": "Schema for validating Saudi national housing program entries in data/housing-programs.ar.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name_ar",
+      "name_en",
+      "type",
+      "operator_ar",
+      "supervisor_ar",
+      "established_year",
+      "beneficiaries_ar",
+      "benefits_ar",
+      "application_process_ar",
+      "application_url",
+      "geographic_scope_ar",
+      "status_ar",
+      "source_url",
+      "last_verified",
+      "audience"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9_]*$",
+        "description": "Unique snake_case identifier"
+      },
+      "name_ar": {
+        "type": "string",
+        "minLength": 3,
+        "description": "Official Arabic program name"
+      },
+      "name_en": {
+        "type": "string",
+        "minLength": 3,
+        "description": "Official English program name"
+      },
+      "type": {
+        "type": "string",
+        "enum": ["دعم تمويلي", "تطوير مباشر", "برنامج توفير", "صندوق"],
+        "description": "Program type"
+      },
+      "operator_ar": {
+        "type": "string",
+        "minLength": 3,
+        "description": "Operating entity"
+      },
+      "supervisor_ar": {
+        "type": "string",
+        "minLength": 3,
+        "description": "Supervising entity"
+      },
+      "established_year": {
+        "type": "integer",
+        "minimum": 1950,
+        "maximum": 2030,
+        "description": "Year the program was established"
+      },
+      "vision_2030_target_ar": {
+        "type": "string",
+        "description": "Vision 2030 target this program contributes to, if any"
+      },
+      "beneficiaries_ar": {
+        "type": "array",
+        "items": { "type": "string" },
+        "minItems": 1,
+        "description": "Who is eligible to benefit"
+      },
+      "benefits_ar": {
+        "type": "array",
+        "items": { "type": "string" },
+        "minItems": 1,
+        "description": "What the program provides"
+      },
+      "application_process_ar": {
+        "type": "string",
+        "minLength": 10,
+        "description": "How to apply"
+      },
+      "application_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "Official application URL"
+      },
+      "geographic_scope_ar": {
+        "type": "string",
+        "minLength": 3,
+        "description": "Geographic coverage: national or specific regions"
+      },
+      "status_ar": {
+        "type": "string",
+        "enum": ["نشط", "موقوف", "مُدمج"],
+        "description": "Current program status"
+      },
+      "source_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "Official program URL"
+      },
+      "last_verified": {
+        "type": "string",
+        "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+        "description": "ISO 8601 date of last verification"
+      },
+      "audience": {
+        "type": "array",
+        "items": { "type": "string" },
+        "minItems": 1,
+        "description": "Target audience"
+      }
+    }
+  }
+}

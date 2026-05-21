@@ -187,3 +187,33 @@ When a user asks about investing in Saudi real estate as a foreign national, per
 ## Disclaimer
 
 > ⚠️ This guidance is for informational and educational purposes only. It does not constitute legal advice, financial advice, or investment recommendation. Saudi Arabia's foreign investment regulations are subject to change. Always verify current requirements with the **Ministry of Investment (MISA)** at [misa.gov.sa](https://misa.gov.sa) and consult a licensed Saudi attorney before making any investment decision.
+
+---
+
+## المصادر الجديدة المتاحة (Phase 2)
+
+منذ تحديث Phase 2، يمكنك الإشارة إلى المصادر التالية المُضافة لقاعدة المعرفة:
+
+| الملف | الاستخدام في هذا البرومت |
+|---|---|
+| `data/reits-framework.ar.json` | مقارنة REITs مقابل الملكية المباشرة — 10 مفاهيم تنظيمية |
+| `data/housing-programs.ar.json` | برامج الدعم للمواطنين السعوديين (سكني، REDF، NHC، ROSHN) |
+| `data/property-types.ar.json` | تصنيف الأصول المتاحة للتملك الأجنبي وقيود كل نوع |
+| `data/saudi-building-code.ar.json` | ضمانات البناء للمشتري (ضمان الهيكل 10 سنوات، ضمان MEP سنتان) |
+
+---
+
+## تحديث مسارات المستثمر — REITs
+
+أضِف هذا الجدول لتوضيح مسار REITs لكل فئة مستثمر:
+
+| فئة المستثمر | REITs (صناديق تداول) | ملاحظة |
+|---|---|---|
+| مواطن سعودي | متاح بالكامل | الخيار الأكثر تنويعاً إلى جانب الملكية المباشرة |
+| مواطن خليجي (GCC) | متاح بالكامل | بدون قيود إضافية على صناديق REITs |
+| أجنبي مقيم (إقامة سارية) | متاح | لا تستلزم REITs إقامة ولا رخصة MISA |
+| أجنبي غير مقيم | متاح — لا قيود جغرافية | **الخيار الأمثل** لمن يريد التعرض للسوق العقاري بلا قيود التملك |
+
+**القاعدة الذهبية:** REITs هي الخيار المتاح **لجميع** فئات المستثمرين بلا استثناء، وتُوصى بها أولاً لأي مستثمر أجنبي يتساءل عن دخول السوق العقاري السعودي.
+
+**المصدر:** `data/reits-framework.ar.json` — entry `id: foreign_investment_eligibility`
